@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X | Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            background-color: black;
+            color: #fff;
+            font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main{
+            display: flex;
+            height: 90vh;
+        }
+        .img-div, .data-div{
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-div > img{
+            height: 50%;
+            width: 100%;
+            object-fit: contain;
+        }
+        .data-div{
+            flex-direction: column;
+            align-items: start;
+        }
+        .buttons-div{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header-data, .signin-div{
+            align-items: start;
+        }
+
+        button{
+            width: 390px;
+            height: 50px;
+            /* padding: 7px; */
+            margin-top: 11px;
+            border: 1px solid white;
+            border-radius: 21px;
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .google > img, .apple > img{
+            width: 24px;
+            height: 20px;
+            object-fit: cover;
+            margin-right: 7px;
+        }
+        .apple{
+            font-weight: bold;
+        }
+        .bg-change{
+            background-color: rgb(29, 155, 240);
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .or-divider{
+            display: flex;
+            align-items: center;
+        }
+        .or-divider hr{
+            width: 30%;
+            margin: 0 10px;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+        .or-divider span{
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .action > a{
+            color: rgb(29, 155, 240);
+        }
+
+        .signin-btn{
+            background-color: black;
+            color: rgb(29, 155, 240);
+            font-weight: bold;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img-div">
+            <img src="https://imgs.search.brave.com/Kso9MbW_7OqYIWnjdxdPvEFezJrbrXCmIpwS_Fs1ocM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L0Zz/Z2I4djZRdzhhS0Vi/ZnBwOVlHVjUtMzIw/LTgwLmpwZw" alt="X logo">
+        </div>
+        <div class="data-div">
+            <div class="header-data">
+                <h1>Happening Now</h1>
+                <p>Join today.</p>
+            </div>
+            <div class="buttons-div">
+                <button class="google"><img src="https://imgs.search.brave.com/S7ZkUSLEdULA2JwWKOyAInw-aECk3pPodz5vcEM0jsU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZXZl/bG9wZXJzLmdvb2ds/ZS5jb20vc3RhdGlj/L2lkZW50aXR5L2lt/YWdlcy9nLWxvZ28u/cG5n"/>Sign up with Google</button>
+                <button class="apple"><img src="https://imgs.search.brave.com/KrD8ho7wV5NgA8ZraQVgMIG7ATCE49__oX7oF9d_pI4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9teWRp/Z2l0YWxwb3N0LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8xMC9GaW5hbC1s/b2dvLmpwZw"/>Sign up with Apple</button>
+                <div class="or-divider">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+                <button class="bg-change">Create account</button>
+                <p class="action">By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use.</a></p>
+            </div>
+            <div class="signin-div">
+                <h3>Already have an account?</h3>
+                <button class="signin-btn">Sign in</button>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <a href="#">About</a>
+        <a href="#">Download the X app</a>
+        <a href="#">Help Center</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Ads info</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Brand Resources</a>
+        <a href="#">Advertising</a>
+        <a href="#">Marketing</a>
+        <a href="#">X for Business</a>
+        <a href="#">Developers</a>
+        <a href="#">Directory</a>
+        <a href="#">Settings</a>
+        <p>&copy; 2024 X Corp.</p>
+    </div>
+</body>
+</html>
