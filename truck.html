@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Rig Trucks</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+            text-decoration: none;
+            
+            color: white;
+        }
+        .main{
+            width: 100vw;
+            height: 80vh;
+            background: url("bigrig.avif");
+            object-fit: contain;
+            background-position: 50%;
+        }
+
+        .header{
+            display: flex;
+            border: 1px solid red;
+            height: 11vh;
+            width: 100vw;
+        }
+        .logo-div{
+            border: 1px solid green;
+            display: flex;
+            justify-content: flex-end;
+            width: 65vw;
+        }
+
+        .contact-div{
+            border: 1px solid salmon;
+            width: 40vw;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            margin: 5px 115px;
+            padding: 5px 70px;
+        }
+        .navbar li{
+            margin: 0 20px;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 62vh;
+            border: 1px solid gold;
+            line-height: 53px;
+            color: linear-gradient(red, yellow, green);
+        }
+        .services-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(0, 0%, 90%);
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo-div">
+                <img src="biglogobg.png" alt="">
+            </div>
+            <div class="contact-div">
+                <p><a href="#">87170 87180</a></p>
+                <p><a href="#">bigrig@trucks.bharat</a></p>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">COMMUNITY MATTERS</a></li>
+            <li><a href="#">MEDIA</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">FACILITIES</a></li>
+        </div>
+        <div class="hero">
+            <h2>Welcome to Big Rig Trucks</h2>
+            <h1>Providing Big Toys for the Work</h1>
+            <div class="hero-buttons">
+                <button>Order a Skip</button>
+                <button>Get a Quote</button>
+            </div>
+        </div>
+    </div>
+    <div class="services-div">
+        <h2>Our services</h2>
+        <p>We provide all kinds of famous trucks that you will need for shipping and carrying loads, Material Distribution, etc.</p>
+    </div>
+</body>
+</html>
